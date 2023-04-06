@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="font-family:Noto Sans">
+
+        <!-- navbar -->
+        <div class="flex justify-around items-center px-4 py-2 md:px-8 md:py-4 bg-[#404EED]">
+            <div class="">
+                <img class="" src="./assets/logo.svg" />
+            </div>
+            <div>
+                <ul class="hidden lg:flex justify-between gap-10 font-bold text-white">
+                    <li>Download</li>
+                    <li>Nitro</li>
+                    <li>Discover</li>
+                    <li>Safety</li>
+                    <li>Support</li>
+                    <li>Blog</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="flex gap-2">
+                <button class="bg-white px-2 sm:px-1 py-1 rounded-full">Open Discord</button>
+                <img class="lg:hidden" src="./assets/hamberger.svg" />
+            </div>
+        </div>
+
+        <!-- hero -->
+        <div class="px-10 py-36 bg-cover bg-center bg-[#404EED]"
+            style="background-image: url('./assets/background.svg')">
+
+
+            <div class="flex flex-col gap-8 justify-center lg:items-center ">
+                <h1 class="font-bold text-6xl text-white">
+                    IMAGINE A PLACE...
+                </h1>
+                <P class="md:w-[50%] text-md mt-4 text-white text-center">
+                    ...where you can belong to a school club, a gaming group, or a worldwide art community. Where just
+                    you and a handful of friends can spend time together. A place that makes it easy to talk every day
+                    and hang out more often.
+                </P>
+                <div class="flex flex-col lg:flex-row  gap-4">
+                    <!-- <button class="px-8 py-2 bg-white rounded-full">Download for Windows</button> -->
+                    <button
+                        class="bg-[#ffff]  text-black font-semibold text-lg rounded-full py-2 px-10 flex justify-center items-center">
+                        <img class="mr-2 invert" src="./assets/download.svg" /> Download for Windows
+                    </button>
+                    <button class="px-8 py-2 bg-slate-950 text-white rounded-full">Open Discord in your browser</button>
+                </div>
+
+
+                <img src="./assets/left-image-banner.svg"
+                    class="hidden lg:block absolute left-[-10px] bottom-[19%] w-[30%]" />
+                <img src="./assets/right-image-banner.svg"
+                    class="hidden lg:block absolute right-[0px] bottom-[19%] w-[30%]" />
+
+            </div>
+
+
+        </div>
+
+
+        <!-- main section -->
+        <div>
+            <div class="flex flex-col justify-around px-4 py-20 items-center md:flex-row md:justify-around">
+                <img class="w-full sm:w-1/2 lg:w-5/12" src="./assets/main-img-1.svg" />
+                <div class="md:w-[35%] flex flex-col gap-4">
+                    <h1 class="lg:text-5xl font-bold text-3xl">
+                        Create an invite-only place where you belong
+                    </h1>
+                    <p class="text-lg">
+                        Discord servers are organized into topic-based channels where you can collaborate, share, and
+                        just talk about your day without clogging up a group chat.
+                    </p>
+                </div>
+            </div>
+            <div
+                class="flex flex-col justify-around px-4 py-20 items-center bg-[#F6F6F6] md:flex-row md:justify-around">
+                <div class="md:w-[35%] flex flex-col gap-4">
+                    <h1 class="lg:text-5xl font-bold text-3xl">
+                        Where hanging out is easy
+                    </h1>
+                    <p class="text-lg">
+                        Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around
+                        and instantly pop in to talk without having to call.
+                    </p>
+                </div>
+                <img class="w-full sm:w-1/2 lg:w-5/12" src="./assets/main-image-2.svg" />
+            </div>
+            <div class="flex flex-col justify-around px-4 py-20 items-center md:flex-row md:justify-around">
+                <img class="w-full sm:w-1/2 lg:w-5/12" src="./assets/main-image-3.svg" />
+                <div class="md:w-[35%] flex flex-col gap-4">
+                    <h1 class="lg:text-5xl font-bold text-3xl">
+                        From few to a fandom
+                    </h1>
+                    <p class="text-lg">
+                        Get any community running with moderation tools and custom member access. Give members special
+                        powers, set up private channels, and more.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-6 items-center justify-center py-20 px-4 bg-[#F6F6F6]">
+
+            <h1 class="font-bold text-5xl text-[#23272A]">
+                RELIABLE TECH FOR STAYING CLOSE
+            </h1>
+            <p class="text-center md:w-[50%] text-xl">
+                Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends
+                stream their games, or gather up and have a drawing session with screen share.
+            </p>
+
+            <img src="./assets/main-image-4.svg" />
+
+            <img src="./assets/main-image-5.svg" />
+            <h1 class="font-bold text-3xl">Ready to start your journey?</h1>
+
+            <button
+                class="bg-[#5865f2] hover:bg-[#7983F5] text-white font-semibold text-lg rounded-full py-2 px-10 flex justify-center items-center">
+                <img class="mr-2" src="./assets/download.svg" /> Download for Windows
+            </button>
+
+
+        </div>
+
+        <!-- footer -->
+        <div class="bg-[#23272A] px-10">
+            <!-- upper -->
+            <div
+                class="flex flex-col gap-6 border-b-2 border-[#5865F2] md:flex-row justify-around items-start py-4 md:py-8 md:px-4">
+
+                <div class="flex flex-col gap-4">
+                    <h1 class="font-bold text-4xl text-[#5865F2]">IMAGINE A PLACE</h1>
+                    <p class="text-white font-semibold flex items-center gap-4"><img class="w-6"
+                            src="./assets/american-flag.png" /> English, USA</p>
+                    <div class="flex gap-4 items-center">
+                        <img src="./assets/twitter.svg" />
+                        <img src="./assets/instagram.svg" />
+                        <img src="./assets/facebook.svg" />
+                        <img src="./assets/youtube.svg" />
+                    </div>
+                </div>
+                <div class="text-white flex flex-wrap gap-10">
+                    <div class="pr-10 md:pr-16">
+                        <ul>
+                            <li class="text-[#5865F2]">Product</li>
+                            <li>Download</li>
+                            <li>Nitro</li>
+                            <li>status</li>
+                        </ul>
+                    </div>
+                    <div class="pr-10 md:pr-16">
+                        <ul>
+                            <li class="text-[#5865F2]">Company</li>
+                            <li>About</li>
+                            <li>Jobs</li>
+                            <li>Branding</li>
+                            <li>Newsroom</li>
+                        </ul>
+                    </div>
+                    <div class="pr-10 md:pr-16">
+                        <ul>
+                            <li class="text-[#5865F2]">Resources</li>
+                            <li>College</li>
+                            <li>Support</li>
+                            <li>Safety</li>
+                            <li>Blog</li>
+                            <li>Feedback</li>
+                            <li>Build</li>
+                            <li>StreamKit</li>
+                            <li>Creators</li>
+                            <li>Community</li>
+                        </ul>
+                    </div>
+                    <div class="pr-10 md:pr-16">
+                        <ul>
+                            <li class="text-[#5865F2]">Policies</li>
+                            <li>Terms</li>
+                            <li>Privacy</li>
+                            <li>Cookie Settings</li>
+                            <li>Guidelines</li>
+                            <li>Acknowledgements</li>
+                            <li>Licences</li>
+                            <li>Moderation</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="flex justify-between items-center py-8">
+                <img src="./assets/logo.svg" />
+                <button class="bg-[#5865f2] hover:bg-[#7983F5] text-white rounded-full py-2 px-4">Sign Up</button>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
